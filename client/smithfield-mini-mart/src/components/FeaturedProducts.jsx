@@ -4,17 +4,17 @@ const products = [
   {
     name: "Fertilizers",
     price: "$5000.00",
-    image: "../src/assets/Image2.jpg",
+    image: "/assets/Image2.jpg",
   },
   {
     name: "One A Day® Women’s VitaCraves® Gummies",
     price: "$200.00 per 10 gummies",
-    image: "../src/assets/one-a-day.png",
+    image: "/assets/one-a-day.png",
   },
   {
     name: "Grace Tomato Ketchup 3.8 L / 128.5 ozs",
     price: "$1850.00",
-    image: "../src/assets/ketchup.jpg",
+    image: "/assets/ketchup.jpg",
   },
 ];
 

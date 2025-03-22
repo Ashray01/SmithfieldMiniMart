@@ -6,15 +6,15 @@ const BannerSlider = () => {
   const banners = [
     {
       id: 1,
-      image: "../src/assets/image1.jpg",
+      image: "/assets/image1.jpg",
     },
     {
       id: 2,
-      image: "../src/assets/Image2.jpg",
+      image: "/assets/Image2.jpg",
     },
     {
       id: 3,
-      image: "../src/assets/profile.jpg",
+      image: "/assets/profile.jpg",
     },
   ];
 

@@ -5,19 +5,19 @@ const offeredServices = [
     title: "Groceries Galore",
     description:
       "Discover a wide variety of fresh produce, essential pantry staples, and unique specialty items—everything you need to create delicious and wholesome meals.",
-    image: "../src/assets/groceries.png",
+    image: "/assets/groceries.png",
   },
   {
     title: "Health & Hygiene",
     description:
       "From personal care products to over-the-counter medications, we prioritize your health and well-being.",
-    image: "../src/assets/health-and-hygiene.png",
+    image: "/assets/health-and-hygiene.png",
   },
   {
     title: "Pet Care Essentials",
     description:
       "Find high-quality animal feed and fertilizers to keep your pets happy and your garden flourishing.",
-    image: "../src/assets/fertilizers.png",
+    image: "/assets/fertilizers.png",
   },
 ];
 

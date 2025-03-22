@@ -42,7 +42,7 @@ export default function Header() {
       {/* Logo and Store Name */}
       <Link to="/" className="flex items-center gap-3">
         <img
-          src="/src/assets/logo.jpg"
+          src="/assets/logo.jpg"
           alt="Smithfield Mini-Mart"
           className="h-10"
         />

@@ -1,19 +1,19 @@
 export default function Testimonials() {
   const testimonials = [
     {
-      img: "../src/assets/customer-review.jpg",
+      img: "/assets/customer-review.jpg",
       title: "Great Service!",
       description:
         "I always find what I need at Smithfield Mini Mart. The staff is friendly and helpful!",
     },
     {
-      img: "../src/assets/customer-review.jpg",
+      img: "/assets/customer-review.jpg",
       title: "Wide Selection",
       description:
         "Their variety of products is impressive! I can get everything I need in one stop.",
     },
     {
-      img: "../src/assets/customer-review.jpg",
+      img: "/assets/customer-review.jpg",
       title: "Affordable Prices",
       description:
         "I love the prices here! I always leave feeling like I got a great deal.",
