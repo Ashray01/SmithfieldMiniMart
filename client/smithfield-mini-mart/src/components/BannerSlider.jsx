@@ -43,12 +43,12 @@ const BannerSlider = () => {
               <p className="text-lg mb-6 max-w-2xl text-center">
                 Your one-stop shop for all your grocery and household needs.
               </p>
-              <a
+              {/* <a
                 href="#shop"
                 className="bg-blue-500 px-6 py-3 text-white font-bold rounded hover:bg-red-500 transition"
               >
                 Shop Now
-              </a>
+              </a> */}
             </div>
           </div>
         ))}
