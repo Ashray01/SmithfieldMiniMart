@@ -2,19 +2,16 @@ import React from "react";
 
 const products = [
   {
-    name: "Fertilizers",
-    price: "$5000.00",
-    image: "/assets/Image2.jpg",
+    image: "/assets/alcohols.jpg",
   },
   {
-    name: "One A Day® Women’s VitaCraves® Gummies",
-    price: "$200.00 per 10 gummies",
-    image: "/assets/one-a-day.png",
+    image: "/assets/groceries1.jpg",
   },
   {
-    name: "Grace Tomato Ketchup 3.8 L / 128.5 ozs",
-    price: "$1850.00",
-    image: "/assets/ketchup.jpg",
+    image: "/assets/groceries2.jpg",
+  },
+  {
+    image: "/assets/coldbeverages.jpg",
   },
 ];
 
@@ -31,21 +28,13 @@ export default function FeaturedProducts() {
       </div>
 
       {/* Product Grid */}
-      <div className="mt-8 grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div className="mt-8 grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
         {products.map((product, index) => (
           <div
             key={index}
             className="bg-white text-black rounded-lg shadow-lg overflow-hidden transition-all duration-300 transform group hover:scale-105 hover:z-20 relative"
           >
-            <img
-              src={product.image}
-              alt={product.name}
-              className="w-full h-64 object-cover"
-            />
-            <div className="p-4">
-              <h3 className="text-lg font-semibold">{product.name}</h3>
-              <p className="text-blue-600 font-bold">{product.price}</p>
-            </div>
+            <img src={product.image} className="w-full h-64 object-cover" />
           </div>
         ))}
       </div>

@@ -52,11 +52,10 @@ export default function Header() {
         </h3>
       </Link>
 
-      {/* Navigation Links */}
       <nav className="hidden md:flex gap-6 text-sm">
         <button
           onClick={() => handleScroll("productsOverview")}
-          className={`hover:text-gray-300 transition ${
+          className={`text-gray-300 hover:text-yellow-400 hover:scale-105 hover:z-20  transition dark:text-white ${
             activeSection === "productsOverview"
               ? "text-yellow-400 font-bold"
               : ""
@@ -66,7 +65,7 @@ export default function Header() {
         </button>
         <button
           onClick={() => handleScroll("featured")}
-          className={`hover:text-gray-300 transition ${
+          className={`text-gray-300 hover:text-yellow-400 hover:scale-105 hover:z-20 transition dark:text-white ${
             activeSection === "featured" ? "text-yellow-400 font-bold" : ""
           }`}
         >
@@ -74,7 +73,7 @@ export default function Header() {
         </button>
         <button
           onClick={() => handleScroll("testimonials")}
-          className={`hover:text-gray-300 transition ${
+          className={`text-gray-300 hover:text-yellow-400 hover:scale-105 hover:z-20 transition dark:text-white ${
             activeSection === "testimonials" ? "text-yellow-400 font-bold" : ""
           }`}
         >

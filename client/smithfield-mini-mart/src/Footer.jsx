@@ -32,7 +32,7 @@ export default function Footer() {
               <FaInstagram />
             </a>
             <a
-              href="https://wa.me/18764538934"
+              href="https://wa.me/18763188301"
               className="p-3 bg-blue-700 rounded-full hover:bg-blue-500 transition"
             >
               <FaWhatsapp />
